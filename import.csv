@@ -1,0 +1,5 @@
+Type,Date,Time,mg/dL,mmol/L,BG correction Bolus (U),Carbohydrates (g),Carbs Bolus (U),Notes,Tags,Exercise Activity,Exercise Duration,Exercise Units
+0,2013-09-20,20:23,179,,1.6,91,13,This is a note.,"Fast food, Humalog",,,
+1,2013-09-20,8:00,,,,,,,,Biking,2,hours
+2,2013-09-21,14:20,,6.3,,,,,,,,
+0,2013-09-21,12:00,,,,56,8,,,,,

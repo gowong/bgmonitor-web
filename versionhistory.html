@@ -1,0 +1,286 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"  "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="author" content="Gordon Wong">
+<meta name="keywords" content="Gordon Wong, bgmonitor, bg monitor, blood glucose monitor, diabetes, type 1, type 2, insulin, android, app, google play">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+<title>BG Monitor - Diabetes Management for Android</title>
+<link rel="shortcut icon" type="image/png" href="images/bgmonitor_favicon.png">
+<link href='https://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+<link href="css/common.css" rel="stylesheet" type="text/css">
+<link href="css/bgmonitor.css" rel="stylesheet" type="text/css">
+<script src="js/jquery-1.9.0.min.js" type="text/javascript"></script>
+<script src="js/common.js" type="text/javascript"></script>
+</head>
+
+<body>
+
+    <div id="content" class="content">
+
+        <div id="header" class="header inner_content">
+            <a href="."><img src="images/bgmonitor.png" alt="BG Monitor"></a>
+            <h2 class="header_title">BG Monitor </h2>
+            <span class="header_subtitle">Diabetes Management for Android</span>
+        </div>
+
+        <div id="navigation_bar" class="navigation inner_content blue_background">
+            <ul class="inline_ul nav_links">
+                <li><a class="nav_header" href="index.html">Overview</a></li>
+                <li><a href="gettingstarted.html">Getting Started</a></li>
+                <li><a class="nav_selected" href="versionhistory.html">Version History</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        
+        <div id="versionhistory_container" class="container_first inner_content">
+            
+            <h3>v6.7 - September 5, 2014</h3>
+            <ul>
+                <li>Redesigned tags. A color can now be assigned to each tag.</li>
+                <li>Added ability to backup and export data to Dropbox.</li>
+                <li>Added automatic backups option (Pro version only).</li>
+                <li>Added insulin on board information to home screen.</li>
+                <li>Integrated app with the DashClock widget.</li>
+                <li>Hungarian translations added thanks to Zoltán Mészáros!</li>
+                <li>New app icon.</li>
+            </ul>
+            <br>
+
+            <h3>v6.6.1 - July 27, 2014</h3>
+            <ul>
+                <li>Bug and crash fixes.</li>
+            </ul>
+            <br>
+
+            <h3>v6.6 - July 22, 2014</h3>
+            <ul>
+                <li>Added navigation drawer (swipe from edge of screen to open).</li>
+                <li>Added food database (user-managed, Pro version only).</li>
+                <li>Added option to backup/restore settings.</li>
+                <li>Added options to modify BG targets and bolus ratios from entry screen.</li>
+                <li>Android 2.2 no longer supported.</li>
+                <li>Bug fixes.</li>
+            </ul>
+            <br>
+
+            <h3>v6.5.5 - April 23, 2014</h3>
+            <ul>
+                <li>Added carbohydrates calculator to the edit entry screen.</li>
+                <li>Added ability to restore and import from Dropbox on Android 3.0+ (backing up to Dropbox will be added when it is supported by Dropbox).</li>
+                <li>Removed restrictions when setting starting and ending mealtimes.</li>
+                <li>Android 2.1 no longer supported.</li>
+                <li>Bug fixes.</li>
+            </ul>
+            <br>
+
+            <h3>v6.5.4 - March 5, 2014</h3>
+            <ul>
+                <li>Fix bolus calculation for mmol/L units.</li>
+            </ul>
+            <br>
+
+            <h3>v6.5.3 - March 4, 2014</h3>
+            <ul>
+                <li>Tags are now shown in entries list.</li>
+                <li>Added ability to filter entries and statistics by time.</li>
+                <li>Added BG target offset setting.</li>
+                <li>Made it easier to create reminders from entry screen.</li>
+                <li>Lots of small improvements.</li>
+            </ul>
+            <br>
+            
+            <h3>v6.5.2 - January 28, 2014</h3>
+            <ul>
+                <li>Added ability to snooze reminders.</li>
+                <li>Added reminder options for vibrate and sound.</li>
+                <li>Updating entries no longer creates automatic reminders. Improved automatic reminders behavior to avoid multiple reminders being set at the same time.</li>
+                <li>Bug fixes.</li>
+            </ul>
+            <br>
+            
+            <h3>v6.5.1 - January 15, 2014</h3>
+            <ul>
+                <li>Added home screen shortcuts for creating entries and reminders.</li>
+                <li>Fixed reminders for Pro version.</li>
+                <li>Bug fixes.</li>
+            </ul>
+            <br>
+
+            <h3>v6.5 - January 10, 2014</h3>
+            <ul>
+                <li>A1C is calculated and shown in statistics.</li>
+                <li>Added more filters. Added filtering by tags (Pro version only).</li>
+                <li>Added repeating reminders. Added automatic reminders (Pro version only).</li>
+                <li>Added option to use large numpad when inputting values.</li>
+                <li>Insulin on board warning now only appears for the current date's entries.</li>
+            </ul>
+            <br>
+            
+            <h3>v6.4.4 - December 24, 2013</h3>
+            <ul>
+                <li>New date and time pickers.</li>
+                <li>Made it easier to create reminders.</li>
+                <li>UI refinements.</li>
+                <li>Fixed bugs and Android 4.4 issues.</li>
+                <li>Added French translations. Updated Italian translations.</li>
+            </ul>
+            <br>
+
+            <h3>v6.4.3 – September 30, 2013</h3>
+            <ul>
+                <li>Fixed bug when importing CSV data.</li>
+            </ul>
+            <br>
+
+            <h3>v6.4.2 – September 23, 2013</h3>
+            <ul>
+                <li>Added ability to import data using a CSV file.</li>
+                <li>Added setup guide for new users.</li>
+                <li>Enabled landscape mode.</li>
+                <li>Miscellaneous improvements, bug and crash fixes.</li>
+            </ul>
+            <br>
+
+            <h3>v6.4.1 – September 8, 2013</h3>
+            <ul>
+                <li>Added option to create entries that won’t be included in statistics.</li>
+                <li>Added ability to share entries.</li>
+                <li>Tap images to view them in full screen.</li>
+                <li>Performance improvements when loading data.</li>
+                <li>Lots of minor improvements.</li>
+            </ul>
+            <br>
+
+            <h3>v6.4 – August 22, 2013</h3>
+            <ul>
+                <li>Added tags functionality (all insulin types will be converted to tags automatically).</li>
+                <li>Added Google Analytics. This will help in crash and bug reporting (Requires internet permissions).</li>
+                <li>Bug fixes (Thanks to Fredrik for all his help).</li>
+            </ul>
+            <br>
+
+            <h3>v6.3.1 – July 20, 2013</h3>
+            <ul>
+                <li>Fixed editing date and time for exercise entries.</li>
+                <li>Removed home entries list.</li>
+                <li>Removed date and time format options. The app will automatically detect the correct formats.</li>
+                <li>Fixed crash for certain time zones.</li>
+                <li>Other bug fixes.</li>
+            </ul>
+            <br>
+
+            <h3>v6.3 – July 13, 2013</h3>
+            <ul>
+                <li>Added reminders (requires new permissions).</li>
+                <li>Fixed bug when saving exercise entries.</li>
+                <li>Fixed bug with incorrect time zones.</li>
+            </ul>
+            <br>
+
+            <h3>v6.2 - June 23, 2013</h3>
+            <ul>
+                <li>Updated and consistent UI for all Android versions.</li>
+                <li>Swipeable tabs!</li>
+                <li>Improved how negative boluses behave (negative boluses are disabled by default).</li>
+                <li>Performance improvements when editing entries.</li>
+                <li>Can choose any increment to round boluses by.</li>
+                <li>Fixed a bug when editing entries.</li>
+            </ul>
+            <br>
+
+            <h3>v6.1.1 - May 19, 2013 </h3>
+            <ul>
+                <li>Fixed crash when tapping on statistics graph on certain devices.</li>
+            </ul>
+            <br>
+
+            <h3>v6.1 - May 19, 2013</h3>
+            <ul>
+                <li>Added option to color code low and high blood glucose.</li>
+                <li>Can now tap on the statistics graph to enlarge.</li>
+                <li>Added option to subtract from carbs boluses to adjust for low blood glucose.</li>
+                <li>Blood glucose targets and boluses will use the entry’s time instead of the device’s time.</li>
+                <li>Can now create entries with just notes.</li>
+                <li>Translated to Italian by Pierluigi Covelli!</li>
+                <li>Various bug fixes and improvements.</li>
+            </ul>
+            <br>
+
+            <h3>v6.0 - April 8, 2013</h3>
+            <ul>
+                <li>Improved picture quality.</li>
+                <li>Improved backup and restore. Multiple backup files can be made. You can choose which backup to restore from.</li>
+                <li>Fixed crash when trying to take a picture on a device without a camera.</li>
+                <li>Lots of UI fixes and various improvements.</li>
+            </ul>
+            <br>
+
+            <h3>v5.3 - March 8, 2013</h3>
+            <ul>
+                <li>New icon!</li>
+                <li>Updated some settings descriptions to make them more clear.</li>
+            </ul>
+            <br>
+
+            <h3>v5.2 - February 1, 2013</h3>
+            <ul>
+                <li>Fixed crash when viewing or creating entries with invalid times due to daylight savings.</li>
+            </ul>
+            <br>
+
+            <h3>v5.1 - November 26, 2012</h3>
+            <ul>
+                <li>Fixed Restore failure message to include name of backup file and its location.</li>
+            </ul>
+            <br>
+
+            <h3>v5.0 - November 25, 2012</h3>
+            <ul>
+                <li>Can now backup and restore data from Settings > Tools.</li>
+                <li>Added warnings when entering blood glucose values that are out of range. Can be enabled/disabled from Settings > Blood glucose</li>
+                <li>Added insulin on board warnings when giving a correction bolus when a bolus was already given. Can be enabled/disabled and configured from Settings > Bolus</li>
+                <li>Added dialogs to indicate progress when deleting, exporting, backing up, and restoring entries from Settings > Tools</li>
+                <li>Fixed a rare bug when displaying entries with calculated boluses.</li>
+            </ul>
+            <br>
+
+            <h3>v4.0 - October 20, 2012</h3>
+            <ul>
+                <li>Can choose how the app calculates insulin boluses. Choices are "insulin pump", which rounds to the nearest 0.05U and "MDI", which rounds to the nearest 0.5U. This is available under Settings > Boluses > Calculation type.</li>
+                <li>Can now set decimal values for carb bolus ratios.</li>
+                <li>Fixed crash when changing meal times on Android 2.1 (Eclair).</li>
+            </ul>
+            <br>
+
+            <h3>v3.0 - October 5, 2012</h3>
+            <ul>
+                <li>Can now export data as a CSV file from Settings > Tools.</li>
+                <li>Exported CSV file can be sent to others (via email) from within the app.</li>
+                <li>Edit screen now shows total insulin bolus.</li>
+                <li>Fixed bug when deleting entries and images on Android 4.1 (Jellybean).</li>
+            </ul>
+            <br>
+
+            <h3>v2.0 - September 19, 2012</h3>
+            <ul>
+                <li>Added the ability to record multiple types of insulin.</li>
+                <li>Can set a default insulin type for each meal.</li>
+            </ul>
+            <br>
+
+            <h3>v1.0 - September 9, 2012</h3>
+            <ul>
+                <li>First release!</li>
+            </ul>
+        </div>
+
+        <div class="footer inner_content">
+            Copyright &copy <a href="http://www.gordonwong.com/" rel="author">Gordon Wong</a>. All rights reserved.
+        </div>
+
+    </div> <!-- END CONTENT -->
+
+</body>
+</html>

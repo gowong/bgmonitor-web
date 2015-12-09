@@ -67,6 +67,9 @@ strong{
 
 
 /* IDs */
+#googleplay_button {
+    width: 185px;
+}
 #versionhistory_container ul{
     margin:0;
     padding: 0;

@@ -67,8 +67,9 @@ strong{
 
 
 /* IDs */
-#googleplay_button {
-    width: 185px;
+#googleplay_button > img {
+    width: 210px;
+    margin: -13px;
 }
 #versionhistory_container ul{
     margin:0;

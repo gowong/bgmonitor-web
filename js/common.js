@@ -46,8 +46,9 @@ $(function() {
     });
 
     //page-specific scroll handler
-    $(window).on('scroll', scrollHandler);
-
+    if (scrollHandler) {
+        $(window).on('scroll', scrollHandler);
+    }
 
     //smooth scroll to id - navigation bar height
     if(window.location.hash) {

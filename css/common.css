@@ -151,9 +151,6 @@ a img{
 .container_first {
     padding-top: 50px;
 }
-.container_floatleft, .container_floatright{
-    overflow: auto;
-}
 .container_floatleft, .container_text_floatleft{
     float:left;
 }
